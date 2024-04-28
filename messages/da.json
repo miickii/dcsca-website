@@ -1,0 +1,81 @@
+{
+  "IndexPage": {
+    "CulturalBanner": "Kulturelt Banner",
+    "FosteringFriendship": "Fremmer Venskab og Kulturel Udveksling",
+    "ActivitiesDescription": "Vi organiserer en række koncerter, operaer, balletter og sportsbegivenheder, herunder golf, tennis og bowling, samt særlige kulturelle og forretningsmæssige ture rundt om i verden.",
+    "UpcomingEvents": "Kommende Begivenheder",
+    "BecomeMember": "Bliv medlem i dag og deltag i vores forskelligartede aktiviteter",
+    "JoinUs": "Bliv Medlem",
+    "Learn More": "Lær mere"
+  },
+  "AboutPage": {
+    "PhysicalWellbeing": "Sport og Fysisk Velvære",
+    "PhysicalActivityDescription": "Engager dig i fysisk aktivitet og opdag glæden ved bevægelse gennem diverse sportsgrene.",
+    "CulturalExploration": "Kulturel Udforskning og Udveksling",
+    "CulturalExplorationDescription": "Dyk ned i rigdommen af dansk og kinesisk kultur med vores kulturelle arrangementer og ture.",
+    "SocialEngagement": "Socialt Samvær og Fællesskab",
+    "SocialEngagementDescription": "Byg venskaber og styrk fællesskabet gennem sociale sammenkomster og aktiviteter.",
+    "PersonalDevelopment": "Personlig Udvikling og Livsstil",
+    "PersonalDevelopmentDescription": "Frem din personlige vækst og en sundere livsstil med vores workshops og foredrag.",
+    "AboutUs": "Om Os",
+    "ConnectingCultures": "Forbinder Kulturer, Fremmer Trivsel",
+    "OrgDescription": "Dansk-Kinesisk Sport & Kultur Forening er en non-profit organisation, der fokuserer på sport og kulturelle aktiviteter og begivenheder. Formålet med de forskellige typer af begivenheder er at bidrage til viden og praksis for at leve et opmærksomt, sundt og lykkeligt liv.",
+    "CulturalExchange": "Kulturel Udveksling",
+    "ExchangeDescription": "Fremmer gensidig forståelse og værdsættelse af forskellige kulturer gennem sport og kulturelle aktiviteter.",
+    "HealthyLifestyle": "Sund Livsstil",
+    "LifestyleDescription": "Fremmer en sund livsstil med fokus på sport og velvære for alle samfundsmedlemmer.",
+    "Affordability": "Økonomisk Overkommelighed",
+    "AffordabilityDescription": "Sikrer tilgængelige og økonomisk overkommelige programmer for at berige livet for vores forskelligartede medlemsbase.",
+    "OpportunitiesTitle": "Vi har mange muligheder",
+    "OpportunitiesDescription": "Foreningen har aftaler med mange organisationer og virksomheder for at få de bedste medlemsrabatter og tjenester til vores medlemmer. Vi byder organisationer, virksomheder og enkeltpersoner velkommen til at kontakte os og blive vores partnere eller sponsorer.",
+    "OurOffers": "Vores Tilbud",
+    "OurBoard": "Vores Bestyrelse"
+  },
+  "MembershipPage": {
+    "BecomeAMember": "Bliv Medlem",
+    "JoinCommunity": "Bliv en del af vores fællesskab og nyd eksklusive fordele, adgang til arrangementer og et netværk af passionerede individer.",
+    "MembershipActivities": "Hvad du kan være med til som medlem",
+    "SportsWellness": "Sport og Velvære",
+    "CulturalSocial": "Kultur og Samvær",
+    "SportActivitiesList": "Taichi; Kinesisk folkedans; Bordtennis; Badminton; Yoga; Mavedans",
+    "CulturalActivitiesList": "Kulturelle og forretningsture rundt om i verden; Kulturelle arrangementer som koncerter, operaer og balletter; Fællesspisning og sociale aktiviteter; Særlige arrangementer, der samler medlemmerne til at fejre både danske og kinesiske helligdage og traditioner",
+    "MembershipDetails": "Medlemskab er gyldigt hele kalenderåret (januar til december). Tilmelding fra juli til december vil resultere i en 50% rabat på prisen. Årsmedlemmer vil modtage gratis træning hele året samt en gratis klubrygsæk. Halvårsmedlemmer kan købe en rygsæk.",
+    "Pricing": "Prisfastsættelse",
+    "FamilyPackage": "Familiepakke (2 voksne + børn under 18)",
+    "RegularIndividual": "Regulær Individuel",
+    "PensionersStudents": "Pensionister/Studerende",
+    "CorporateMembership": "Virksomhedsmedlemskab"
+  },
+  "NotFoundPage": {
+    "title": "Side Ikke Fundet",
+    "description": "Ups! Det ser ud som om du er faldet over en side, der ikke eksisterer. Bare rolig, vores internationaliseringsmagi arbejder stadig hårdt i andre dele af appen. Føl dig fri til at navigere tilbage for at udforske mere!"
+  },
+  "Navigation": {
+    "Home": "Hjem",
+    "About": "Om",
+    "Events": "Begivenheder",
+    "Membership": "Medlemskab",
+    "FAQ": "FAQ",
+    "Contact Us": "Kontakt Os",
+    "Test": "Test",
+    "Profile": "Profil",
+    "Logout": "Log ud",
+    "Login": "Log ind",
+    "Register": "Registrer",
+    "Association Name": "Dansk-Kinesisk Sport og Kultur Forening"
+  },
+  "Footer": {
+    "City": "København, Danmark",
+    "Phone": "Telefon",
+    "Email": "Email",
+    "CVR": "CVR",
+    "FollowUs": "Følg Os",
+    "QuickLinks": "Hurtige Links",
+    "Home": "Hjem",
+    "About": "Om",
+    "Events": "Begivenheder",
+    "Membership": "Medlemskab",
+    "FAQ": "FAQ",
+    "Contact Us": "Kontakt Os"
+  }
+}

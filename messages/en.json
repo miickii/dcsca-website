@@ -1,0 +1,82 @@
+{
+    "IndexPage": {
+      "CulturalBanner": "Cultural Banner",
+      "FosteringFriendship": "Fostering Friendship and Cultural Exchange",
+      "ActivitiesDescription": "We organize a variety of concerts, operas, ballets, and sports events, including golf, tennis, and bowling, as well as special cultural and business tours around the world.",
+      "UpcomingEvents": "Upcoming Events",
+      "BecomeMember": "Become a member today and participate in our diverse activities",
+      "JoinUs": "Join Us",
+      "Learn More": "Learn More"
+    },
+    "AboutPage": {
+      "PhysicalWellbeing": "Physical Wellbeing",
+      "PhysicalActivityDescription": "Engage in physical activity and discover the joy of movement through various sports.",
+      "CulturalExploration": "Cultural Exploration and Exchange",
+      "CulturalExplorationDescription": "Delve into the richness of Danish and Chinese culture with our cultural events and tours.",
+      "SocialEngagement": "Social Engagement and Community",
+      "SocialEngagementDescription": "Build friendships and strengthen community through social gatherings and activities.",
+      "PersonalDevelopment": "Personal Development and Lifestyle",
+      "PersonalDevelopmentDescription": "Advance your personal growth and a healthier lifestyle with our workshops and lectures.",
+      "AboutUs": "About Us",
+      "ConnectingCultures": "Connecting Cultures, Promoting Well-being",
+      "OrgDescription": "Danish-Chinese Sport and Culture Association is a non-profit organization focused on sports and cultural activities and events. The purpose of the various types of events is to contribute to knowledge and practice for living a mindful, healthy, and happy life.",
+      "CulturalExchange": "Cultural Exchange",
+      "ExchangeDescription": "Fostering mutual understanding and appreciation of diverse cultures through sports and cultural activities.",
+      "HealthyLifestyle": "Healthy Lifestyle",
+      "LifestyleDescription": "Promoting a healthy way of life with a focus on sports and well-being for all community members.",
+      "Affordability": "Affordability",
+      "AffordabilityDescription": "Ensuring accessible and affordable programs to enrich the lives of our diverse membership base.",
+      "OpportunitiesTitle": "We have many opportunities",
+      "OpportunitiesDescription": "The association has agreements with many organizations and businesses to get the best membership discounts and services for our members. We welcome organizations, businesses, and individuals to contact us and become our partners or sponsors.",
+      "OurOffers": "Our Offers",
+      "OurBoard": "Our Board"
+    },
+    "MembershipPage": {
+      "BecomeAMember": "Become a Member",
+      "JoinCommunity": "Join our community and enjoy exclusive benefits, access to events, and a network of passionate individuals.",
+      "MembershipActivities": "What you can participate in as a member",
+      "SportsWellness": "Sport and Wellness",
+      "CulturalSocial": "Culture and Social",
+      "SportActivitiesList": "Taichi; Chinese folk dance; Table tennis; Badminton; Yoga; Belly dancing",
+      "CulturalActivitiesList": "Cultural and business tours around the world; Cultural events such as concerts, operas, and ballets; Community dining and social activities; Special events that bring members together to celebrate both Danish and Chinese holidays and traditions",
+      "MembershipDetails": "Membership is valid for the entire calendar year (January to December). Signing up from July to December will result in a 50% discount on the price. Annual members will receive free training throughout the year, as well as a complimentary club backpack. Half-year members can purchase a backpack.",
+      "Pricing": "Pricing",
+      "FamilyPackage": "Family Package (2 adults + children under 18)",
+      "RegularIndividual": "Regular Individual",
+      "PensionersStudents": "Pensioners/Students",
+      "CorporateMembership": "Corporate Membership"
+    },
+    "NotFoundPage": {
+      "title": "Page Not Found",
+      "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
+    },
+    "Navigation": {
+      "Home": "Home",
+      "About": "About",
+      "Events": "Events",
+      "Membership": "Membership",
+      "FAQ": "FAQ",
+      "Contact Us": "Contact Us",
+      "Test": "Test",
+      "Profile": "Profile",
+      "Logout": "Logout",
+      "Login": "Login",
+      "Register": "Register",
+      "Association Name": "Danish-Chinese Sport and Culture Association"
+    },
+    "Footer": {
+      "City": "Copenhagen, Denmark",
+      "Phone": "Phone",
+      "Email": "Email",
+      "CVR": "CVR",
+      "FollowUs": "Follow Us",
+      "QuickLinks": "Quick Links",
+      "Home": "Home",
+      "About": "About",
+      "Events": "Events",
+      "Membership": "Membership",
+      "FAQ": "FAQ",
+      "Contact Us": "Contact Us",
+      "Test": "Test"
+    }
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  /* Make sure there are no additional styles here that might affect your white page */
+}

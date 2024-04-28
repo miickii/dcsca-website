@@ -1,0 +1,82 @@
+{
+    "IndexPage": {
+      "CulturalBanner": "文化旗帜",
+      "FosteringFriendship": "促进友谊和文化交流",
+      "ActivitiesDescription": "我们组织各种音乐会、歌剧、芭蕾以及高尔夫、网球和保龄球等体育赛事，以及特别的文化和商务旅行。",
+      "UpcomingEvents": "即将举行的活动",
+      "BecomeMember": "今天成为会员，参与我们的多元化活动",
+      "JoinUs": "加入我们",
+      "Learn More": "了解更多"
+    },
+    "AboutPage": {
+      "PhysicalWellbeing": "体育和身体福祉",
+      "PhysicalActivityDescription": "参与体育活动，通过各种体育运动发现运动的乐趣。",
+      "CulturalExploration": "文化探索与交流",
+      "CulturalExplorationDescription": "通过我们的文化活动和旅游深入了解丹麦和中国的文化丰富性。",
+      "SocialEngagement": "社会参与与社区",
+      "SocialEngagementDescription": "通过社交聚会和活动建立友谊，加强社区联系。",
+      "PersonalDevelopment": "个人发展与生活方式",
+      "PersonalDevelopmentDescription": "通过我们的研讨会和讲座推进个人成长和更健康的生活方式。",
+      "AboutUs": "关于我们",
+      "ConnectingCultures": "连接文化，促进福祉",
+      "OrgDescription": "丹麦-中国体育与文化协会是一个专注于体育和文化活动和事件的非营利组织。各种类型的活动的目的是为了贡献于生活知识和实践，以实现一个注意力集中、健康和幸福的生活。",
+      "CulturalExchange": "文化交流",
+      "ExchangeDescription": "通过体育和文化活动促进对不同文化的相互理解和欣赏。",
+      "HealthyLifestyle": "健康生活方式",
+      "LifestyleDescription": "推广一种注重体育和社区成员福祉的健康生活方式。",
+      "Affordability": "可负担性",
+      "AffordabilityDescription": "确保提供可访问和负担得起的项目，以丰富我们多元化会员基础的生活。",
+      "OpportunitiesTitle": "我们有许多机会",
+      "OpportunitiesDescription": "协会与许多组织和企业达成协议，为我们的会员获得最佳的会员折扣和服务。我们欢迎组织、企业和个人联系我们，成为我们的合作伙伴或赞助商。",
+      "OurOffers": "我们的优惠",
+      "OurBoard": "我们的董事会"
+    },
+    "MembershipPage": {
+      "BecomeAMember": "成为会员",
+      "JoinCommunity": "加入我们的社区，享受独家福利，参加活动，结识充满激情的人。",
+      "MembershipActivities": "作为会员您可以参与的活动",
+      "SportsWellness": "体育与健康",
+      "CulturalSocial": "文化与社交",
+      "SportActivitiesList": "太极; 中国民间舞蹈; 乒乓球; 羽毛球; 瑜伽; 肚皮舞",
+      "CulturalActivitiesList": "环球文化和商务旅行; 诸如音乐会; 歌剧和芭蕾的文化活动; 社区聚餐和社交活动; 举办特别活动以庆祝丹麦和中国的节日和传统",
+      "MembershipDetails": "会籍有效期为整个日历年（1月至12月）。从7月到12月注册将享受价格50％的折扣。年度会员将全年免费培训，并获赠俱乐部背包。半年会员可以购买背包。",
+      "Pricing": "定价",
+      "FamilyPackage": "家庭套餐（2位成人+18岁以下儿童）",
+      "RegularIndividual": "普通个人",
+      "PensionersStudents": "退休人员/学生",
+      "CorporateMembership": "企业会员"
+    },
+    "NotFoundPage": {
+      "title": "Side Ikke Fundet",
+      "description": "Ups! Det ser ud som om du er faldet over en side, der ikke eksisterer. Bare rolig, vores internationaliseringsmagi arbejder stadig hårdt i andre dele af appen. Føl dig fri til at navigere tilbage for at udforske mere!"
+    },
+    "Navigation": {
+        "Home": "首页",
+        "About": "关于我们",
+        "Events": "活动",
+        "Membership": "会员资格",
+        "FAQ": "常见问题",
+        "Contact Us": "联系我们",
+        "Test": "测试",
+        "Profile": "个人资料",
+        "Logout": "登出",
+        "Login": "登录",
+        "Register": "注册",
+        "Association Name": "丹麦-中国运动文化协会"
+    },
+    "Footer": {
+      "City": "哥本哈根, 丹麦",
+      "Phone": "电话",
+      "Email": "电子邮件",
+      "CVR": "CVR",
+      "FollowUs": "关注我们",
+      "QuickLinks": "快速链接",
+      "Home": "首页",
+      "About": "关于我们",
+      "Events": "活动",
+      "Membership": "会员资格",
+      "FAQ": "常见问题",
+      "Contact Us": "联系我们"
+    }
+  }
+  
