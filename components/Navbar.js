@@ -14,7 +14,7 @@ const Navbar = () => {
                     {/* Logo and association name */}
                     <Link href="/" className="w-1/5 flex items-center space-x-3">
                         <Image
-                            src="/Logo.PNG"
+                            src="/Logo.png"
                             width={40}
                             height={40}
                             alt="Logo"

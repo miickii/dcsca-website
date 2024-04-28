@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className="bg-gray-800 text-white p-8">
             <Image
-                src="/Logo.PNG"
+                src="/Logo.png"
                 width={64}
                 height={64}
                 alt="Danish-Chinese Association Logo"
