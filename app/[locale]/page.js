@@ -42,8 +42,13 @@ export default async function Home() {
             {/* Second section */}
             <div className="flex flex-col md:flex-row md:items-center justify-center py-10 md:py-20 bg-neutral-200">
                 {/* Image container */}
-                <div className="flex items-center justify-center px-10 lg:px-20  w-full md:w-1/2 md:border-b-0 md:border-r md:border-gray-300">
-                    <img src="bordtennis.jpg" alt={t('CulturalBanner')} className="w-full h-auto" />
+                <div className="flex items-center justify-center px-10 lg:px-20 w-full md:w-1/2 md:border-b-0 md:border-r md:border-gray-300">
+                    <Image 
+                        src="/bordtennis.jpg" // Ensure the path is correct
+                        alt={t('CulturalBanner')}
+                        width={500}
+                        height={500}
+                    />
                 </div>
         
                 {/* Text content container */}
@@ -73,7 +78,7 @@ export default async function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {testimonials.map((testimonial, index) => (
                         <div key={index} className="rounded-lg shadow-md p-6" data-aos="fade-left">
-                            <blockquote className="italic">"{testimonial.testimonial}"</blockquote>
+                            <blockquote className="italic">&quot;{testimonial.testimonial}&quot;</blockquote>
                             <p className="text-right mt-4">- {testimonial.name}</p>
                         </div>
                     ))}

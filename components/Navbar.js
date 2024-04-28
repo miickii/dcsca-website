@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import LanguageSelector from './LanguageSelector';
 import NavbarLink from './NavbarLink';
+import Image from 'next/image';
 
 const Navbar = () => {
     const t = useTranslations('Navigation');
@@ -12,18 +13,17 @@ const Navbar = () => {
                 <div className="flex justify-between items-center py-3">
                     {/* Logo and association name */}
                     <Link href="/" className="flex items-center space-x-3">
-                        <img src="/Logo.PNG" alt="Logo" className="h-10 w-auto" />
+                        <Image
+                            src="/Logo.png"
+                            width={40}
+                            height={40}
+                            alt="Logo"
+                        />
                         <span className="hidden xl:block font-semibold">{t('Association Name')}</span>
                     </Link>
 
                     {/* Navigation Links */}
                     <div className="flex items-center space-x-1">
-                        {/* <Link href="/">{t('Home')}</Link>
-                        <Link href="/about">{t('About')}</Link>
-                        <Link href="/events">{t('Events')}</Link>
-                        <Link href="/membership">{t('Membership')}</Link>
-                        <Link href="/test">{t('Test')}</Link>
-                        <Link href="/gallery">Gallery</Link> */}
                         <NavbarLink href="/" text={t('Home')} />
                         <NavbarLink href="/about" text={t('About')} />
                         <NavbarLink href="/membership" text={t('Membership')} />

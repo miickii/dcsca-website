@@ -98,17 +98,17 @@ const About = () => {
                 <h1 className='text-4xl text-black font-bold mb-10'>{t('OurBoard')}</h1>
                 <div className="flex flex-col md:flex-row justify-center items-center md:items-start py-10 md:space-x-32">
                     <div className="text-center">
-                        <img src="" alt={`name, role`} className="mx-auto w-48 h-48 object-cover rounded-full shadow-lg"/>
+                        <Image src="" alt={`name, role`} width={48} height={48} className="object-cover rounded-full shadow-lg" />
                         <h3 className="text-xl font-medium text-gray-800 mt-4">Jesper Egelund</h3>
                         <p className="text-gray-600">Næstformand</p>
                     </div>
                     <div className="text-center">
-                        <img src="" alt={`name, role`} className="mx-auto w-48 h-48 object-cover rounded-full shadow-lg"/>
+                        <Image src="" alt={`name, role`} width={48} height={48} className="object-cover rounded-full shadow-lg" />
                         <h3 className="text-xl font-medium text-gray-800 mt-4">Junxuan Mao</h3>
                         <p className="text-gray-600">Formand</p>
                     </div>
                     <div className="text-center">
-                        <img src="" alt={`name, role`} className="mx-auto w-48 h-48 object-cover rounded-full shadow-lg"/>
+                        <Image src="" alt={`name, role`} width={48} height={48} className="object-cover rounded-full shadow-lg" />
                         <h3 className="text-xl font-medium text-gray-800 mt-4">William Chee</h3>
                         <p className="text-gray-600">Næstformand</p>
                     </div>

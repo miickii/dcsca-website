@@ -25,10 +25,12 @@ export default function LargeEventCard({ selected, setSelected }) {
                     {/* Event Images Carousel (Placeholder) */}
                     <div className="w-full h-64 bg-gray-200 flex items-center justify-center">
                         {selected.images && selected.images.length > 0 ? (
-                            <img 
-                            src={urlFor(selected.images[0]).url()} 
-                            alt="Event" 
-                            className="w-full h-full object-cover"
+                            <Image 
+                                src={urlFor(selected.images[0]).url()} 
+                                alt="Event" 
+                                fill
+                                sizes="(max-width: 768px) 100vw, 33vw"  // Responsive sizing
+                                className="object-cover"
                             />
                         ) : (
                             <span>No image available</span>

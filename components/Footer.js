@@ -1,13 +1,20 @@
 import { SocialIcon } from 'react-social-icons'
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const Footer = () => {
     const t = useTranslations("Footer");
 
     return (
         <footer className="bg-gray-800 text-white p-8">
-            <img src="/Logo.PNG" alt="Danish-Chinese Association Logo" className="h-16 w-auto mb-4" />
+            <Image
+                src="/Logo.png"
+                width={64}
+                height={64}
+                alt="Danish-Chinese Association Logo"
+                className="mb-4"
+            />
             <div className="w-full px-4 flex flex-col sm:flex-row justify-center">
                 <div className="w-full md:w-1/2 mb-10 md:mb-0">
                     <p>Huset på Rymarksvej, Kultursal / Rymarksvej 3C, 2900 Hellerup.</p>

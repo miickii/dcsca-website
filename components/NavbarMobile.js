@@ -5,6 +5,7 @@ import Link from 'next/link';
 import LanguageSelector from './LanguageSelector';
 import NavbarLink from './NavbarLink';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const NavbarMobile = ({ home, about, events, membership, gallery}) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -24,7 +25,12 @@ const NavbarMobile = ({ home, about, events, membership, gallery}) => {
                 <div className="flex justify-between items-center py-3">
                     {/* Logo and association name */}
                     <Link href="/" className="flex items-center space-x-3">
-                        <img src="/Logo.PNG" alt="Logo" className="h-10 w-auto" />
+                        <Image
+                            src="/Logo.png"
+                            width={40}
+                            height={40}
+                            alt="Logo"
+                        />
                     </Link>
 
                     <div className="flex items-center">

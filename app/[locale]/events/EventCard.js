@@ -28,7 +28,7 @@ const EventCard = ({ event, isSelected, setSelected, isPast = false }) => {
                 setExpanded(false);
             });
         }
-    }, [isSelected]);
+    }, [isSelected, controls, expanded]);
 
     const handleOnClick = () => {
         setSelected(event);
