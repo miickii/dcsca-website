@@ -16,11 +16,11 @@ export default function LargeEventCard({ selected, setSelected }) {
     return (
         <div
             onClick={() => setSelected(null)}
-            className="fixed inset-0 bg-black/50 z-40 cursor-pointer"
+            className="absolute left-0 top-0 w-full h-full bg-black/50 z-40 cursor-pointer flex items-center justify-center"
         >
             <div
                 onClick={(e) => e.stopPropagation()}
-                className="w-full max-w-[700px] mx-auto my-8 cursor-default"
+                className="w-full max-w-[700px] cursor-default"
             >
                 <motion.div layoutId={`card-${selected._id}`} className="relative bg-white shadow-lg rounded-lg overflow-hidden z-50">
                     {/* Event Images Carousel (Placeholder) */}

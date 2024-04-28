@@ -3,10 +3,12 @@ import Image from 'next/image';
 import { format } from 'date-fns';
 import { motion, useAnimation } from 'framer-motion';
 import urlFor from '@/app/utils/image-url';
+import { useRouter } from 'next/navigation';
 
 const EventCard = ({ event, isSelected, setSelected, isPast = false }) => {
     const controls = useAnimation();
     const [expanded, setExpanded] = useState(false);
+    const router = useRouter();
 
     useEffect(() => {
         if (isSelected) {
@@ -31,8 +33,12 @@ const EventCard = ({ event, isSelected, setSelected, isPast = false }) => {
     }, [isSelected, controls, expanded]);
 
     const handleOnClick = () => {
-        setSelected(event);
-        setExpanded(true);
+        if (window.matchMedia("(max-width: 768px)").matches) {
+            router.push(`/events/${event._id}`)
+        } else {
+            setSelected(event);
+            setExpanded(true);
+        }
     };
 
     return (
@@ -42,11 +48,11 @@ const EventCard = ({ event, isSelected, setSelected, isPast = false }) => {
             layout
             layoutId={`card-${event._id}`}
             transition={{ duration: 0.3 }}
-            whileHover={{ scale: 1.04 }}
-            whileTap={{ scale: 0.97 }}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.99 }}
             onClick={handleOnClick}
         >
-            <div className={`flex flex-col rounded-lg shadow hover:shadow-lg border-2 border-transparent hover:border-black transition duration-300 overflow-hidden w-full bg-white cursor-pointer ${isPast ? 'bg-gray-200' : 'bg-white'}`}>
+            <div className={`flex flex-col rounded-lg shadow hover:shadow-lg transition duration-300 overflow-hidden w-full bg-white cursor-pointer ${isPast ? 'bg-gray-200' : 'bg-white'}`}>
                 <div className="relative w-full h-40 overflow-hidden">
                     {event.images ? (
                         <Image 

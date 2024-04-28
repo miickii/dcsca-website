@@ -14,7 +14,7 @@ export default async function EventsPage() {
     const pastEvents = await client.fetch(pastQuery, { currentDateTime });
 
   return (
-    <div className='w-full h-full'>
+    <div className='relative w-full h-full'>
         <div className="p-4">
             <h3 className="text-center font-bold text-4xl mb-8">Upcoming Events</h3>
             <EventList events={upcomingEvents}/>
