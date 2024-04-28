@@ -24,7 +24,7 @@ export default function LargeEventCard({ selected, setSelected }) {
             >
                 <motion.div layoutId={`card-${selected._id}`} className="relative bg-white shadow-lg rounded-lg overflow-hidden z-50">
                     {/* Event Images Carousel (Placeholder) */}
-                    <div className="w-full h-64 bg-gray-200 flex items-center justify-center">
+                    <div className="relative w-full h-64 bg-gray-200 flex items-center justify-center">
                         {selected.images && selected.images.length > 0 ? (
                             <Image 
                                 src={urlFor(selected.images[0]).url()} 

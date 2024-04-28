@@ -72,7 +72,7 @@ const About = () => {
 
             <div className="flex flex-col md:flex-row items-center md:items-start py-28">
                 <div className="flex items-center justify-center w-full md:w-1/2 md:border-b-0 md:border-r md:border-gray-300">
-                    <Image src="/bordtennis.jpg" alt={t('Description')} width={500} height={300} className="object-cover" />
+                    <Image src="/bordtennis.jpg" alt="bordtennis" width={500} height={300} className="object-cover" />
                 </div>
 
                 <div className="w-2/3 md:w-1/2 pt-5 md:px-10">

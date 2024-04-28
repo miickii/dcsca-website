@@ -26,7 +26,7 @@ const NavbarMobile = ({ home, about, events, membership, gallery}) => {
                     {/* Logo and association name */}
                     <Link href="/" className="flex items-center space-x-3">
                         <Image
-                            src="/Logo.png"
+                            src="/Logo.PNG"
                             width={40}
                             height={40}
                             alt="Logo"

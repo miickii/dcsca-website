@@ -12,9 +12,9 @@ const Navbar = () => {
             <div className="w-full mx-auto px-4">
                 <div className="flex justify-between items-center py-3">
                     {/* Logo and association name */}
-                    <Link href="/" className="flex items-center space-x-3">
+                    <Link href="/" className="w-1/5 flex items-center space-x-3">
                         <Image
-                            src="/Logo.png"
+                            src="/Logo.PNG"
                             width={40}
                             height={40}
                             alt="Logo"
@@ -23,7 +23,7 @@ const Navbar = () => {
                     </Link>
 
                     {/* Navigation Links */}
-                    <div className="flex items-center space-x-1">
+                    <div className="w-3/5 flex justify-center space-x-1">
                         <NavbarLink href="/" text={t('Home')} />
                         <NavbarLink href="/about" text={t('About')} />
                         <NavbarLink href="/membership" text={t('Membership')} />
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Language Selector */}
-                    <div className="flex flex-col items-center">
+                    <div className="w-1/5 flex flex-col items-end">
                         <LanguageSelector />
                     </div>
                 </div>
