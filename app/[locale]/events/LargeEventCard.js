@@ -3,6 +3,7 @@ import urlFor from '@/app/utils/image-url';
 import { motion } from 'framer-motion';
 import { format } from 'date-fns';
 import Link from 'next/link';
+import Image from "next/image";
 
 
 export default function LargeEventCard({ selected, setSelected }) {
